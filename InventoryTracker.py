@@ -102,7 +102,7 @@ def update_an_item():
         mydb.commit()
         print(mycursor.rowcount, "record(s) updated")
     else:
-        print("Sorry, that's not an option. Please enter the letter associated with the action you'd like to take")
+        print("Sorry, that's not an option.")
         update_an_item()
     menu_options()
 
